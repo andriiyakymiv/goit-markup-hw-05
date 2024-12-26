@@ -749,10 +749,13 @@ img {
     color: #2e2f42;
 }
 
+.form-order {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .modal-window-form {
-    display: flex;
-        flex-direction: column;
     margin-bottom: 8px;
 }
 
