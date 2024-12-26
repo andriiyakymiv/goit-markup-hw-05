@@ -776,7 +776,7 @@ img {
 .modal-input-wraper {
     position: relative;
     display: block;
-    margin-top: 4px;
+    margin-bottom: 8px;
 }
 
 .form-input {
