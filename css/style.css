@@ -10,7 +10,7 @@
 }
 
 
-/*------------------- General -------------------*/
+/*—————————————————————— General ——————————————————————*/
 *,
 *::before,
 *::after {
@@ -77,7 +77,7 @@ img {
     overflow: hidden;
 }
 
-/*--------------- Header (Header section) ---------------*/
+/*——————————————— Header (Header section) ———————————————*/
 
 .header {
     border-bottom: 1px solid #e7e9fc;
@@ -126,10 +126,6 @@ img {
     flex-direction: row;
     gap: 40px;
 }
-
-/* .menu-item {
-    position: relative;
-} */
 
 .menu-link {
     position: relative;
@@ -189,7 +185,7 @@ img {
     color: var(--color-ocean-pressed-state);
 }
 
- /*--------------- Hero (First section) ---------------*/
+ /*——————————————— Hero (First section) ———————————————*/
 
  .hero {
     max-width: 1440px;
@@ -251,9 +247,7 @@ img {
     background: var(--color-ocean-pressed-state);
  }
 
-/* ----------------- Feature (Second section) ----------------- */
-
-
+/* —————————————— Feature (Second section) ——————————————*/
 
 .feature-list {
     display: flex;
@@ -300,7 +294,7 @@ img {
     color: var(--color-contact-slate);
 }
 
-/* ----------------- Our Team (Third section) ----------------- */
+/*——————————————— Our Team (Third section) ———————————————*/
 .ourteam {
     background: #f4f4fd;
 }
@@ -353,7 +347,7 @@ img {
     color: var(--text-body);
 }
 
-/* --------------------- Social Icon --------------------- */
+/*——————————————————— Social Icon ———————————————————*/
 .social-list {
     display: flex;
     align-items: center;
@@ -384,7 +378,7 @@ img {
 }
 
 
-/* ----------------- Portfolio (Fourth section) ----------------- */
+/*————————————— Portfolio (Fourth section) —————————————*/
 
 .portfolio-content {
     display: flex;
@@ -487,7 +481,7 @@ img {
     color: var(--text-body);
 }
 
-/* ------------------- Footer ------------------- */
+/*—————————————————————— Footer ——————————————————————*/
 
 .footer-section {
     padding: 100px 0;
@@ -653,20 +647,19 @@ img {
     fill: var(--color-background-white);
 }
 
-/* ---------------- Modal Overlay ---------------- */
+/*——————————————————— Modal Overlay ———————————————————*/
 .modal-overlay {
     display: flex;
     justify-content: center;
     align-items: center;
-
     background-color: rgba(46, 47, 66, 0.4);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 999;
 
+    z-index: 999;
     opacity: 1;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -722,11 +715,7 @@ img {
                 border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-modal-close:hover {
-    background-color: #404bbf;
-    border: none;
-}
-
+.button-modal-close:hover, 
 .button-modal-close:focus {
     background-color: #404bbf;
     border: none;
@@ -738,14 +727,14 @@ img {
 
     position: absolute;
     top: 50%;
-    left: 8px;
     transform: translateY(-50%);
 
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-modal-close-icon:focus, .button-modal-close-icon:hover {
+.button-modal-close-icon:focus, 
+.button-modal-close-icon:hover {
     fill: #ffffff;
 }
 
@@ -762,14 +751,13 @@ img {
 
 
 .modal-window-form {
+    display: flex;
+        flex-direction: column;
     margin-bottom: 8px;
 }
 
 
-.form-order {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .form-label {
     display: block;
