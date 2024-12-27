@@ -189,6 +189,8 @@ img {
 
  .hero {
     max-width: 1440px;
+    margin: 0 auto;
+    padding: 188px 0;
     background-image: 
         linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/hero-img-people-office.jpg);
@@ -196,7 +198,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--color-dark-navyblue);
-    padding: 188px 0;
+    
  }
 
  .hero-baner {
@@ -733,8 +735,8 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-modal-close-icon:focus, 
-.button-modal-close-icon:hover {
+.button-modal-close:hover .button-modal-close-icon,
+.button-modal-close:focus .button-modal-close-icon {
     fill: #ffffff;
 }
 
@@ -882,7 +884,7 @@ img {
     height: 8px;
 }
 
- .form-checkbox:checked + .checkbox-second  {
+ .form-checkbox:checked + .form-checkbox-label .checkbox-second  {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
